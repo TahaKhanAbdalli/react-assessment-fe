@@ -29,7 +29,10 @@
     "Logout": "Déconnexion",
     "My_Movies": "Mes films",
     "error": "Quelque chose s'est mal passé !",
-    "logout": "Déconnexion réussie !"
+    "logout": "Déconnexion réussie !",
+    "next": "Suivant", 
+    "prev": "Précédente"
+    
   },
   "NotFound": {
     "title": "Page non trouvée !"

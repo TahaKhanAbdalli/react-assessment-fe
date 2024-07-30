@@ -49,10 +49,10 @@ const MoviesList = () => {
     originalElement
   ) => {
     if (type === "prev") {
-      return <a>Prev</a>;
+      return <a>{t('prev')}</a>;
     }
     if (type === "next") {
-      return <a>Next</a>;
+      return <a>{t('next')}</a>;
     }
     return originalElement;
   };

@@ -29,7 +29,9 @@
     "Logout": "Logout",
     "My_Movies": "My movies",
     "error": "Something Went Wrong!",
-    "logout": "Logout Successfully!"
+    "logout": "Logout Successfully!",
+    "next": "Next",
+    "prev": "Prev"
   },
   "NotFound": {
     "title": "Page non trouvée !"
