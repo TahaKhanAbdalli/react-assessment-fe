@@ -1,0 +1,91 @@
+:root {
+    /* Colors */
+    --primary1: #3a99fc;
+    --secondary1: #728096;
+    --lightText: #ffffff;
+    --mediumText: #373737d4;
+    --darkText: #000000;
+    --altText: #728096;
+    --mutedText: #ababb6;
+    --titleText: #9a9a9a;
+    --pageBg: #fbfafb;
+    --error: #ff4444;
+    --warning: #ff8800;
+    --success: #00c851;
+    --transparent: transparent;
+    --placeholderText: var(--mutedText);
+    --lightContainerBg: #ffffff;
+    --defaultShadowColor: rgba(0, 0, 0, 0.25);
+    --defaultItemBorderColor: #dfe4e7;
+    --defaultLabelColor: #776e75;
+    --loadingPlaceholderColor: #e9ecef;
+    --divider: #a8a8a8;
+    --accent: #3978ef;
+    --black: #121212;
+    --gray: #333;
+    --lightGray: rgba(0, 0, 0, 0.1);
+    --pageHeaderBgColor: #d3d0cf;
+    --pageheaderTxtColor: #0e62c9;
+    --pageHeaderBgColorHover: rgb(245, 243, 239);
+    --pageheaderHeadingColor: #7889a4;
+    --pageheaderWidth: 220px;
+    --pagecontentBgColor: #f0f1f6;
+    --pagecontentTxtColor: #171616;
+    --pagecontentBlockColor: #fff;
+    --white: #fff;
+    --black: #212121;
+    --blue: #00b9eb;
+    --red: #ec1848;
+    --borderRadius: 4px;
+    --borderColor: #e3ddd0;
+    --boxShadow: 0 0 10px -2px rgba(0, 0, 0, 0.075);
+  
+    /* Font sizes */
+    --extraOrdinaryLarge: 2.5rem;
+    --extraLarge: 1.25rem;
+    --large: 1.125rem;
+    --normal: 1rem;
+    --small: 0.875rem;
+    --extraSmall: 0.75rem;
+    --tiny: 0.5rem;
+  
+    /* Margins & Paddings Spaces */
+    --extraSmallSpace: 4px;
+    --smallSpace: 10px;
+    --smallMediumSpace: 16px;
+    --mediumSpace: 20px;
+    --extraMediumSpace: 25px;
+    --largeSpace: 30px;
+    --extraLargeSpace: 40px;
+    --extraExtraSmallSpace: 2px;
+  
+    /* Icons */
+    --defaultIconSize: 24px;
+    --defaultIconColor: #6f7c8e;
+    --defaultIconActiveColor: #545d6b;
+  
+    /* Theme */
+    --themeColor1: #ffedc7;
+    --themeColor2: #fedd94;
+    --themeColor3: #febd2f;
+    --themeColor4: #c68801;
+    --themeColor5: #604200;
+    --themeColor6: #f9ab01;
+  
+    --themeSidebarColor: #f5f3ef;
+  
+    /* Accent */
+    --AccentBlue: #3430ff;
+    --AccentOrange: #ff8730;
+    --AccentRed: #ff303c;
+    --AccentPurple: #9830ff;
+  
+    /* Border */
+    --themeBorderColor: #d3d0cf;
+  
+    /* Text Color */
+    --themeDarkText: #212121;
+    --themeLightText: #a5a5a5;
+    --themeMediumText: #8a817e;
+  }
+  

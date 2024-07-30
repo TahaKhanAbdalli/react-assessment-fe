@@ -1,0 +1,165 @@
+.movies-container {
+  margin: 0;
+  padding: 0;
+  background-color: #093545;
+}
+
+/* CustomContainer.css */
+
+.custom-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2rem 1rem;
+}
+.ant-alert-success .ant-alert-content {
+  flex: none;
+}
+.heading-movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-movies h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  font-family: Montserrat-Medium;
+}
+
+.heading-movies p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+.add-movie {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.add-icon {
+  padding-top: 10px;
+}
+.logout-section {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.movies-card {
+  margin: 2rem 0;
+}
+
+.card-content .ant-card-meta-detail .ant-card-meta-title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.card-content .ant-card-meta-detail .ant-card-meta-description {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.ant-card-body {
+  padding: 24px 0px !important;
+}
+
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-section .ant-pagination .ant-pagination-prev a,
+.pagination-section .ant-pagination .ant-pagination-next a {
+  color: #fff !important;
+}
+
+.pagination-section .ant-pagination-item-active a {
+  border-radius: 4px;
+  background: #2bd17e;
+  border: 0px !important;
+  color: #fff;
+}
+
+.pagination-section .ant-pagination-item a {
+  border-radius: 4px;
+  background: #092c39;
+  border: 0px !important;
+  color: #fff;
+}
+.card-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.editIcon {
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  bottom: 70px;
+}
+
+.editIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .heading-movies p {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-container {
+    max-width: 540px;
+  }
+  .card-image {
+    height: 200px;
+  }
+  .editIcon {
+    color: #fff;
+    position: initial;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+    max-width: 1140px;
+  }
+}

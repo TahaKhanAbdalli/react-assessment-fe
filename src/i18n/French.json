@@ -1,0 +1,37 @@
+{
+  "General": {
+    "Branch Detail": "Détail de la succursale",
+    "Brand Detail": "Détail de la marque",
+    "Company Detail": "Détail de l'entreprise"
+  },
+  "login": {
+    "title": "Se connecter",
+    "Checkbox lable": "Se souvenir de moi",
+    "User Required": "Email requis",
+    "Password Required": "Mot de passe requis",
+    "error": "Identifiants invalides. Veuillez réessayer.",
+    "success": "Connexion réussie !"
+  },
+  "Empty List": {
+    "title": "Votre liste de films est vide",
+    "btn text": "Ajouter un nouveau film"
+  },
+  "CreateMovies": {
+    "Add_movie": "Déposez une image ici",
+    "title": "Titre",
+    "publish_year": "Année de publication",
+    "Create_movie": "Créer un nouveau film",
+    "edit_movie": "Modifier",
+    "Cancel_btn": "Annuler",
+    "Submit_btn": "Soumettre"
+  },
+  "MovieList": {
+    "Logout": "Déconnexion",
+    "My_Movies": "Mes films",
+    "error": "Quelque chose s'est mal passé !",
+    "logout": "Déconnexion réussie !"
+  },
+  "NotFound": {
+    "title": "Page non trouvée !"
+  }
+}

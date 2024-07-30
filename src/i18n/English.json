@@ -1,0 +1,37 @@
+{
+  "General": {
+    "Branch Detail": "Branch Detail",
+    "Brand Detail": "Brand Detail",
+    "Company Detail": "Company Detail"
+  },
+  "login": {
+    "title": "Sign In",
+    "Checkbox lable": "Remeber me",
+    "User Required": "Email Required",
+    "Password Required": "Password Required",
+    "error": "Invalid Credentials. Please Try Again",
+    "success": "Login successful!"
+  },
+  "Empty List": {
+    "title": "Your movie list is empty",
+    "btn text": "Add a new movie"
+  },
+  "CreateMovies": {
+    "Add_movie": "Drop an image here",
+    "title": "Title",
+    "publish_year": "Publishing Year",
+    "Create_movie": " Creat a new movie",
+    "edit_movie": "Edit",
+    "Cancel_btn": "Cancel",
+    "Submit_btn": "Submit"
+  },
+  "MovieList": {
+    "Logout": "Logout",
+    "My_Movies": "My movies",
+    "error": "Something Went Wrong!",
+    "logout": "Logout Successfully!"
+  },
+  "NotFound": {
+    "title": "Page non trouvée !"
+  }  
+}

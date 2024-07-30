@@ -1,0 +1,112 @@
+
+/* sign in form */
+.login-container,
+.emptylist-container {
+  margin: 0;
+  padding: 0;
+  background-color: #093545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+}
+
+.login-form {
+  padding: 20px;
+}
+
+.sign-in-heading {
+  color: #FFF;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  padding-bottom: 2rem;
+  font-family: "Montserrat-Bold";
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.inputField[type="text"],
+.inputField[type="password"] {
+  width: 300px;
+  height: 45px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background-color: #224957;
+  color: #fff;
+  text-align: left;
+}
+
+.inputField::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.inputField[type="checkbox"] {
+  background: #224957;
+  width: 18px;
+  height: 17px;
+}
+
+label {
+  margin-left: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+.error-message{
+  color: red;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_in_btn {
+  width: 100%;
+  border-radius: 10px;
+  background: var(--primary, #2BD17E);
+  color: #fff;
+  padding: 15px 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media only screen and (max-width:576px) {
+
+  .inputField[type="text"],
+  .inputField[type="password"] {
+    width: 260px;
+  }
+
+  .sign-in-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    padding-bottom: 2rem;
+    font-family: "Montserrat-Bold";
+  }
+}
