@@ -25,12 +25,13 @@ const MoviesList = () => {
 
   const fetchingMoviesData = async () => {
     const response = await MovieActions.getMovies(limit, pagination);
-    if (response?.success) {
+    if (response?.data?.movies.length === 0) {
+      navigate("/app/emptyList");
+    } else if (response?.success) {
       setMovieList(response?.data?.movies);
       setTotal(response?.data?.total);
     } else {
       message.error(t("error"));
-      navigate("/app/emptyList");
     }
     setLoading(false);
   };
